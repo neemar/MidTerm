@@ -21,7 +21,7 @@ public class Follow : MonoBehaviour {
 		// "B" - "A" (if you want a vector going from A to B)
 		//inputVector = followThis.position - transform.position;
 		// Normalize "standardizes" a vector to length 1
-		rbody.velocity = Vector3.Normalize ( inputVector ) * 2f;
+		rbody.velocity = Vector3.Normalize ( inputVector ) * 5f;
 		Debug.Log ( rbody.velocity.magnitude );
 		
 	}
